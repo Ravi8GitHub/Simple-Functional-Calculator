@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+.container{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 118, 0.5);
+  padding: 20px 0;
+  border-radius: 5px;
+}
+input{
+  width: 300px;
+  font-size: 40px;
+  background: transparent;
+  cursor:pointer;
+  text-align: right;
+  color: #ffffff;
+}
+
+.gridButton{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  margin: 5px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+  inset -8px 8px 15px rgba(6, 6, 6, 0.5) ;
+  font-size: 20px;
+  cursor:pointer;
+}
+.equalBtn{
+  background-color: #ff4500;
+}
+.deleteBtn{
+  color: #ff4500;
+}
+.operator{
+  color: #44f504;
+}
+
+
